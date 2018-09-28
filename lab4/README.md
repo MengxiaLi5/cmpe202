@@ -10,3 +10,9 @@ collaboration: message
 class name: message
 responsibility:1.sent to the phone once registered on a wait list. 2.send to customer to "confirm" or "leave" the wait list.
 collaboration:customer, table
+
+#Observer Pattern
+When customers reply the message to restaurant, the tables' status is going to be changed: if customers reply "confirm", the status of table is occupied; if customers reply "leave", the status of table is vacant.
+
+#State Pattern
+When a table is available, the restaurant is sending message to customer, and customer chooses confirm or leave. Then the status of table will change. Therefore, the RestaurantManager class should be context in the state pattern.
