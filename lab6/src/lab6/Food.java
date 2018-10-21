@@ -7,10 +7,13 @@ import java.util.Scanner;
 public class Food {
 
 	public static void main(String[] args) {
+
 		System.out.println("food 1:");
 		Scanner scanner = new Scanner(System.in);
         String burger = scanner.nextLine();
         Order order = new Order(burger);
+
+
         if(burger.equals("LBB")){
         	System.out.println("Topping1:");
             Scanner scanner2 = new Scanner(System.in);
@@ -37,19 +40,19 @@ public class Food {
                  }
             }
         }
+
+
         if(burger.equals("LBB")) order.setBurgerPrice(5.59);
-        //if(burger.equals("LTL CAJ")) order.setBurgerPrice(2.79);
         System.out.println("food 2");
         String fries = scanner.nextLine();
         Order order2 = new Order(fries);
         if(fries != "1"){
         	if(fries.equals("LTL CAJ")) order.setBurgerPrice(2.79);
         }
-//        if(burger.equals("1")){
-//        	
-//        }
         System.out.println("Charge:");
 		int money = scanner.nextInt();
+
+		
 		System.out.println("    FIVE GUYS");
 		System.out.println(" BURGERS AND FRIES");
 		System.out.println("  STORE # CA-1294");
@@ -105,6 +108,10 @@ public class Food {
 		System.out.println("Cashier:Sakda* S.");
 		System.out.println("********************************");
 		System.out.println("Don't throw away your receipt!");
+
+
+
+
 		System.out.println("--------------------------------");
 		System.out.println("Patties - 1");
 		System.out.println("");
