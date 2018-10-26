@@ -12,7 +12,7 @@ public class CreditCardCVC implements IDisplayComponent, IKeyEventHandler
 
 	public String display() {
 		if ( cvc.equals("") )
-			return "[123]" + "  " ;
+			return "[000]" + "  " ;
 		else
 			return "[" + cvc + "]" + "  " ;
 	}	
