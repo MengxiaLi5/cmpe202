@@ -1,5 +1,5 @@
-p
-ublic class Context {
+public class Context {
+	
    private Strategy strategy;
  
    public Context(Strategy strategy){
