@@ -1,4 +1,5 @@
 
+
 import java.lang.reflect.* ;
 
 public class GumballMachine {
@@ -60,6 +61,7 @@ public class GumballMachine {
 	// Main Class - Dump Metadata
 	public static void main( String args[ ] )
 	{
+
 		System.out.println( "***** Class Bytecode Dump *****" ) ;
 		GumballMachine m = new GumballMachine(10) ;
 		Class gmClass = m.getClass() ;
@@ -70,6 +72,7 @@ public class GumballMachine {
 			String method = theMethod.toString() ;
 			System.out.println( method ) ;
 		}
+
 		
 	}
 	

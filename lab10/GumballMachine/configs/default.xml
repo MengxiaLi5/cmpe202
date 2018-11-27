@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="GumballMachine"/>
+    <feature automatic="selected" name="MODEL"/>
+    <feature automatic="unselected" name="CRANKMODEL"/>
+    <feature automatic="unselected" name="ONEQTR"/>
+    <feature automatic="unselected" name="TWOQTR"/>
+    <feature manual="selected" name="SLOTMODEL"/>
+    <feature automatic="selected" name="COST"/>
+    <feature automatic="unselected" name="COST25"/>
+    <feature manual="selected" name="COST50"/>
+</configuration>
